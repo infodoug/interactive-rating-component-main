@@ -28,17 +28,17 @@
       <p>Please let us know how we did with your support request. All feedback is appreciated 
         to help us improve our offering!</p>
       <ul>
-        <li>1</li>
-        <li>2</li>
-        <li>3</li>
-        <li>4</li>
-        <li>5</li>
+        <li><buton class="botao-nota" onclick="SalvarNota(1)">1</buton></li>
+        <li><buton class="botao-nota" onclick="SalvarNota(2)">2</buton></li>
+        <li><buton class="botao-nota" onclick="SalvarNota(3)">3</buton></li>
+        <li><buton class="botao-nota" onclick="SalvarNota(4)">4</buton></li>
+        <li><buton class="botao-nota" onclick="SalvarNota(5)">5</buton></li>
       </ul>
-      <button id="submitbutton" onclick="Botao()"><h2>Submit</h2></button>
+      <button id="submitbutton" onclick="BotaoSubmit()"><h2>Submit</h2></button>
     </div>
     <div id="thankspage">
       <div id="ratemessage">
-        You selected <!-- Add rating here --> out of 5
+        You selected <span id="nota-apresentada"></span> out of 5
       </div>
   
       <h1>Thank you!</h1>
